@@ -1,0 +1,32 @@
+/* ===== Títulos ===== */
+h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+
+/* ===== Parágrafos ===== */
+p::first-letter {
+  text-transform: uppercase;
+}
+
+/* ===== Links ===== */
+a:hover {
+  text-decoration: none;
+}
+
+/* ===== Imagens ===== */
+img {
+  display: block;
+  margin: auto;
+  max-width: 150px;
+}
+
+/* ===== Lista de TVs (category_tvs.html) ===== */
+#primary-list {
+  list-style: none;
+  text-align: center;
+}
