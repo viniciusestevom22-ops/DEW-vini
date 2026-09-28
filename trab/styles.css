@@ -16,6 +16,7 @@ p::first-letter {
 /* ===== Links ===== */
 a:hover {
   text-decoration: none;
+  opacity: 0.5; /* all 2 */
 }
 
 /* ===== Imagens ===== */
@@ -29,4 +30,74 @@ img {
 #primary-list {
   list-style: none;
   text-align: center;
+}
+
+/* all 1 */
+body {
+  padding: 20px;
+  margin: 20px;
+}
+
+/* pd 1 */
+.banner {
+  height: 300px;
+  width: 100%;
+  background-image: url("./images/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* pd 2 */
+.hide {
+  display: none;
+}
+
+/* pd 3 */
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+/* ===== Estilo da página inicial ===== */
+.page-products {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f7f9;
+  color: #234;
+}
+
+.page-products .banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.page-products .banner h1 {
+  color: #fff;
+  font-size: 40px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.page-products .nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #1e8caa;
+  border-radius: 12px;
+}
+
+.page-products .nav a {
+  display: inline-block;
+  padding: 10px 24px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  transition: opacity 0.3s;
 }
