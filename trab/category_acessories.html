@@ -5,30 +5,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vendas de acessórios para TVs</title>
   <meta name="description" content="Loja online de TVs e acessórios com os melhores preços." />
-   <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./styles.css" />
 </head>
 
 <body class="page-category-acessories">
-  <h1>Categoria de produtos</h1>
-  <h2>Acessórios para TVs</h2>
+  <header class="header">
+    <p>Venda de TVs e acessórios online</p>
+    <nav class="nav">
+      <ul>
+        <li><a href="./products.html">Home</a></li>
+        <li><a href="./category_tvs.html" target="_self">TVs</a></li>
+        <li><a href="./category_acessories.html">Acessórios</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <ul>
-    <li>
-      <img src="./images/suporte_parede.jpg" alt="Imagem de suporte de parede para TV" />
-      <h3>Suporte de parede para TV</h3>
-      <h4>R$ 100</h4>
-      <h5>R$ 50,00 em 2x</h5>
-      <a href="https://www.aquario.com.br/audio-video/suportes-de-tv?srsltid=AfmBOop5kiNWwNhwQzOrs6hxl-mVEfjBhmiJDzoL2ZYMV13E9xsIk-JR"
-        target="_blank" rel="noopener noreferrer">Detalhes</a>
-    </li>
-    <li>
-      <img src="./images/cabo_hdmi.jpg" alt="Imagem de cabo HDMI" />
-      <h3>Cabo HDMI 2.1</h3>
-      <h4>R$ 60,00</h4>
-      <h5>R$ 30,00 em 2x</h5>
-      <a href="https://edcabos.com/cabos/cabo-hdmi/cabo-hdmi-2-1/cabo-hdmi-2-1-1-5-metros-8k"
-        target="_blank" rel="noopener noreferrer">Detalhes</a>
-    </li>
-  </ul>
+  <main>
+    <h1>Categoria de produtos</h1>
+    <h2>Acessórios para TVs</h2>
+
+    <ul class="products-list">
+      <li class="product">
+        <h3>Suporte de parede para TV</h3>
+        <figure>
+          <img src="./images/suporte_parede.jpg" alt="Imagem de suporte de parede para TV" />
+        </figure>
+        <p class="price"><strong>Preço:</strong> <data value="100">R$ 100,00</data></p>
+        <p class="installment"><strong>Parcelamento:</strong> <data value="50">R$ 50,00</data> em 2x</p>
+        <a href="https://www.aquario.com.br/audio-video/suportes-de-tv" target="_blank" rel="noopener noreferrer">Ver mais</a>
+      </li>
+      <li class="product">
+        <h3>Cabo HDMI 2.1</h3>
+        <figure>
+          <img src="./images/cabo_hdmi.jpg" alt="Imagem de cabo HDMI" />
+        </figure>
+        <p class="price"><strong>Preço:</strong> <data value="60">R$ 60,00</data></p>
+        <p class="installment"><strong>Parcelamento:</strong> <data value="30">R$ 30,00</data> em 2x</p>
+        <a href="https://edcabos.com/cabos/cabo-hdmi/cabo-hdmi-2-1/cabo-hdmi-2-1-1-5-metros-8k" target="_blank" rel="noopener noreferrer">Ver mais</a>
+      </li>
+    </ul>
+  </main>
 </body>
 </html>

@@ -5,32 +5,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vendas de TVs</title>
   <meta name="description" content="Loja online de TVs e acessórios com os melhores preços." />
-    <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./styles.css" />
 </head>
 
 <body class="page-category-tvs">
-  <h1>Categoria de produtos</h1>
-  <h2>TVs</h2>
+  <header class="header">
+    <p>Venda de TVs e acessórios online</p>
+    <nav class="nav">
+      <ul>
+        <li><a href="./products.html">Home</a></li>
+        <li><a href="./category_tvs.html" target="_self">TVs</a></li>
+        <li><a href="./category_acessories.html">Acessórios</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <ol id="primary-list">
-    <li>
-      <img src="./images/tv_samsung.jpg" alt="Imagem de televisão marca Samsung" />
-      <h3>Marca: Samsung</h3>
-      <h4>R$ 2.000,00</h4>
-      <h5>R$ 200,00 em 10x</h5>
-      <!-- target _blank: abre em nova aba -->
-      <!-- rel noopener: impede que a página aberta tenha acesso à sua página original (segurança) -->
-      <a href="https://www.samsung.com/br/tvs/" target="_blank" rel="noopener noreferrer">Detalhes</a>
-    </li>
-    <li>
-      <img src="./images/tv_lg.jpeg" alt="Imagem de televisão marca LG" />
-      <h3>Marca: LG</h3>
-      <h4>R$ 5.000,00</h4>
-      <h5>R$ 500,00 em 10x</h5>
-      <!-- target _blank: abre em nova aba -->
-      <!-- rel noopener: impede que a página aberta tenha acesso à sua página original (segurança) -->
-      <a href="https://www.lg.com/br/tvs-e-soundbars/qned-evo/" target="_blank" rel="noopener noreferrer">Detalhes</a>
-    </li>
-  </ol>
+  <main>
+    <h1>Categoria de produtos</h1>
+    <h2>TVs</h2>
+
+    <ul class="products-list">
+      <li class="product">
+        <h3>Samsung</h3>
+        <figure>
+          <img src="./images/tv_samsung.jpg" alt="Imagem de televisão marca Samsung" />
+        </figure>
+        <p class="price"><strong>Preço:</strong> <data value="2000">R$ 2.000,00</data></p>
+        <p class="installment"><strong>Parcelamento:</strong> <data value="200">R$ 200,00</data> em 10x</p>
+        <a href="https://www.samsung.com/br/tvs/" target="_blank" rel="noopener noreferrer">Ver mais</a>
+      </li>
+      <li class="product">
+        <h3>LG</h3>
+        <figure>
+          <img src="./images/tv_lg.jpeg" alt="Imagem de televisão marca LG" />
+        </figure>
+        <p class="price"><strong>Preço:</strong> <data value="5000">R$ 5.000,00</data></p>
+        <p class="installment"><strong>Parcelamento:</strong> <data value="500">R$ 500,00</data> em 10x</p>
+        <a href="https://www.lg.com/br/tvs-e-soundbars/qned-evo/" target="_blank" rel="noopener noreferrer">Ver mais</a>
+      </li>
+    </ul>
+  </main>
 </body>
 </html>
